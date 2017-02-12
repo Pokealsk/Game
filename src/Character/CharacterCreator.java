@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class CharacterCreator {
 	public Character createCharacter(String role){
 		Character character = new Character();
-		System.out.println("Please Input a Role");
+		System.out.println("Please Input a Role, your choices are");
 		
 		Scanner scn = new Scanner(System.in);
 		do
